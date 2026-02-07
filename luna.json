@@ -80,7 +80,7 @@
             "externalSources": [],
             "externalJSLibraries": [],
             "scriptingDefines": [],
-            "msbuildVersion": "",
+            "msbuildVersion": "4.8",
             "monoVersion": "6.0.11",
             "dotnetVersion": ""
         },
