@@ -362,7 +362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &499344029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -986,7 +986,7 @@ Canvas:
   m_GameObject: {fileID: 1021176182}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1109,6 +1109,7 @@ GameObject:
   - component: {fileID: 1117917845}
   - component: {fileID: 1117917844}
   - component: {fileID: 1117917843}
+  - component: {fileID: 1117917847}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -1340,6 +1341,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1117917847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117917842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6866969fc757409cb2c01616f872ca9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shortTilePrefab: {fileID: 2353388698181887828, guid: b3e3c6410af14b64e9a5800b92357e12, type: 3}
+  longTilePrefab: {fileID: 5363282644449931528, guid: 63bea34c66d793344b75554b51f4e561, type: 3}
+  fallSpeed: 4.5
+  spawnY: 4
 --- !u!1 &1312441494
 GameObject:
   m_ObjectHideFlags: 0
