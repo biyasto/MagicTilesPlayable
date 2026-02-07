@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Movement Settings")]
     public float fallSpeed = 4f; 
-    public float spawnY = 4f;
+    public float spawnY = 3f;
     private readonly float[] laneXPositions = { -1.26f, -0.42f, 0.42f, 1.26f };
 
     [Header("State")]

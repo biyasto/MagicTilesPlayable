@@ -22,15 +22,17 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        PlayMusic(backgroundMusic);
+        PlayMusic();
     }
 
     // Use this for looping background tracks
-    public void PlayMusic(AudioClip clip)
+    public void PlayMusic()
     {
-        if (clip == null) return;
-        musicSource.clip = clip;
-        musicSource.Play();
+        if (backgroundMusic == null) return;
+        if (!musicSource.isPlaying) {
+            musicSource.clip = backgroundMusic;
+            musicSource.Play();
+        }
     }
     public void StopMusic()
     {
