@@ -1,0 +1,235 @@
+report@config:load 25.64
+Authorized using stored user info.
+report@account:authorize 6.86
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+Exporting assets from Unity..........
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 7076.32
+report@config:load 16.43
+[ error ] $Failed to locate TTF file for the font named LegacyRuntime – falling back to Arial substitute.
+Using C:/Windows/Fonts/arial.ttf file to generate an atlas for LegacyRuntime[498] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at E:/Projects/Github/MagicTilesPlayable/LunaTemp/stage1/tmp/fonts/LegacyRuntime-498/output_0.png (59kb)
+Resources:
+{}
+report@assets:stage2 3044.03
+report@assets:stage3 151.53
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@config:unity 0.12
+report@config:load 22.61
+report@config:unity 0.12
+report@code:compose 26.91
+Authorized using stored user info.
+report@account:authorize 3.16
+MSBuild version 18.0.5+e22287bf1 for .NET Framework
+
+Build started 2/7/2026 7:43:27 PM.
+
+
+
+Project "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+
+CoreClean:
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  Setting DOTNET_ROOT to 'C:\Program Files\dotnet'
+
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_62 /highentropyva+ /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\LunaPlayableArea.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+  Compilation request Scripts, PathToTool=C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\csc.exe
+
+  CommandLine = ' /noconfig'
+  BuildResponseFile = '/nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_62 /highentropyva+ /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /referen
+ce:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\LunaPlayableArea.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"'
+
+  Attempting to create process 'C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\VBCSCompiler.exe' "-pipename:Ve+bP5ni2Q6NbAzBPiJ4NUUUtl+gsWSsBPhitfrUmsc"
+
+  Setting DOTNET_ROOT to 'C:\Program Files\dotnet'
+
+  Successfully created process with process id 93612
+
+  Attempt to open named pipe 'Ve+bP5ni2Q6NbAzBPiJ4NUUUtl+gsWSsBPhitfrUmsc'
+
+  Attempt to connect named pipe 'Ve+bP5ni2Q6NbAzBPiJ4NUUUtl+gsWSsBPhitfrUmsc'
+
+  Named pipe 'Ve+bP5ni2Q6NbAzBPiJ4NUUUtl+gsWSsBPhitfrUmsc' connected
+
+  Begin writing request for Scripts
+
+  End writing request for Scripts
+  Begin reading response for Scripts
+
+  End reading response for Scripts
+
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(9,42): warning CS0649: Field 'AudioManager.sfxSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(10,44): warning CS0649: Field 'TileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(8,42): warning CS0649: Field 'AudioManager.musicSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  CompilerServer: server - server processed compilation - Scripts
+
+_CopyFilesMarkedCopyLocal:
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Creating "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" because "AlwaysCreate" was specified.
+
+  Touching "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
+
+CopyFilesToOutputDirectory:
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Scripts -> C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+Done Building Project "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
+
+
+
+Build succeeded.
+
+
+
+"C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+(CoreCompile target) -> 
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(9,42): warning CS0649: Field 'AudioManager.sfxSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(10,44): warning CS0649: Field 'TileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downl
+oads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(8,42): warning CS0649: Field 'AudioManager.musicSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+    3 Warning(s)
+    0 Error(s)
+
+
+Time Elapsed 00:00:06.85
+
+Source code compiled successfully!
+﻿
+[ error ] $﻿
+PHC: LP error code not found in JSON: 3015, JSON file might be outdated. Error message: Sequence contains no matching element
+
+Diagnostics gathered successfully
+report@code:build 12181.23
+report@diagnostics:verify 0.43
+report@diagnostics:upload 3592.50
+report@code:stage 7671.48
+[ Stage3 ] Code compiled and bundled successfully.
+report@code:bundle 23502.18
+report@package:stage 836.92
+[ Stage4 ] Target platform: develop
+[ Stage4 ] Package bundled successfully
+report@assets:stats 0.23
