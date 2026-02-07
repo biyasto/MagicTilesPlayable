@@ -1,0 +1,13 @@
+.vscode/
+/.DS_Store
+/.vs
+/Library
+/obj
+*.csproj
+/Temp
+.DS_Store
+/Logs
+/Logs/AssetImportWorker1.log
+AssetImportWorker0.log
+/UserSettings
+.idea/
