@@ -129,7 +129,7 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/SampleScene.unity"
+            "Assets/Scenes/Gameplay.unity"
         ],
         "disabledScenes": [],
         "startupScene": 0,
