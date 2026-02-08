@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     private Queue<GameObject> shortPool = new Queue<GameObject>();
     private Queue<GameObject> longPool = new Queue<GameObject>();
 
+    #region level data
     private readonly TileEvent[] levelData = {
         new TileEvent{id=0, time=0.000000f, duration=0.285715f, lane=3}, new TileEvent{id=1, time=0.190476f, duration=0.285715f, lane=2},
         new TileEvent{id=2, time=0.380953f, duration=0.285715f, lane=1}, new TileEvent{id=3, time=0.571429f, duration=0.285715f, lane=0},
@@ -76,6 +77,7 @@ public class GameManager : MonoBehaviour
         new TileEvent{id=86, time=25.714305f, duration=0.285715f, lane=2}, new TileEvent{id=87, time=25.714305f, duration=0.285715f, lane=0},
         new TileEvent{id=88, time=26.285734f, duration=0.285715f, lane=3}, new TileEvent{id=89, time=26.285734f, duration=0.285715f, lane=1}
     };
+    #endregion
 
     void Start() {
         gameActive = true;
