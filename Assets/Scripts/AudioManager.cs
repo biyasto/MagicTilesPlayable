@@ -5,13 +5,14 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
 
     [Header("Audio Sources")]
-    [SerializeField] private AudioSource musicSource;
+    [SerializeField] public AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
 
     [Header("Audio Clips")]
     public AudioClip backgroundMusic;
     public AudioClip tapSound;
-    public AudioClip winSound;
+    public AudioClip overSound;
+    public AudioClip completeSound;
 
     void Awake()
     {
@@ -19,12 +20,7 @@ public class AudioManager : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
     }
-
-    void Start()
-    {
-        PlayMusic();
-    }
-
+    
     // Use this for looping background tracks
     public void PlayMusic()
     {
