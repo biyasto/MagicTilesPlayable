@@ -15,10 +15,11 @@ public class TileController : MonoBehaviour
     Camera mainCam;
     
     private bool isHolding = false;
-
     public float holdDuration = 0.25f;
     private float holdTimer = 0f;
     [SerializeField] private float highlightSize = 3.86f;
+
+    private int activeFingerId = -1; // which finger is holding this tile
 
     void Awake()
     {
@@ -52,51 +53,89 @@ public class TileController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        // MULTI-TOUCH (Luna / Mobile)
+        if (Input.touchCount > 0)
         {
-            TryStartHold(Input.mousePosition);
-        }
-
-        if (Input.GetMouseButton(0) && isHolding)
-        {
-            if(isTouched==false)
+            foreach (Touch touch in Input.touches)
             {
-                isTouched = true;
-                highlightImage.gameObject.SetActive(true);
-            }
-            holdTimer += Time.deltaTime;
-            if (holdTimer >= holdDuration)
-            {
-                isHolding = false;
-                holdTimer = holdDuration;
-            }
+                Vector2 worldPos = mainCam.ScreenToWorldPoint(touch.position);
 
-            highlightImage.size = new Vector2(highlightImage.size.x, highlightSize*holdTimer*1.0f/holdDuration);
+                // BEGIN
+                if (touch.phase == TouchPhase.Began)
+                {
+                    TryStartHold(worldPos, touch.fingerId);
+                }
 
-            if (holdTimer >= holdDuration)
-            {   
-                HandleTap();
+                // HOLD
+                if (touch.fingerId == activeFingerId &&
+                    (touch.phase == TouchPhase.Stationary || touch.phase == TouchPhase.Moved))
+                {
+                    UpdateHold();
+                }
+
+                // END / CANCEL
+                if (touch.fingerId == activeFingerId &&
+                    (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled))
+                {
+                    EndHold();
+                }
             }
         }
-
-        if (Input.GetMouseButtonUp(0))
+#if UNITY_EDITOR
+        // MOUSE fallback (Editor & non-touch)
+        else
         {
-            isHolding = false; // NOTICE: timer is NOT reset
+            if (Input.GetMouseButtonDown(0))
+                TryStartHold(mainCam.ScreenToWorldPoint(Input.mousePosition), 0);
+
+            if (Input.GetMouseButton(0) && activeFingerId == 0)
+                UpdateHold();
+
+            if (Input.GetMouseButtonUp(0) && activeFingerId == 0)
+                EndHold();
         }
-    }    
-    void TryStartHold(Vector2 screenPos)
+#endif
+    }
+
+    void TryStartHold(Vector2 worldPos, int fingerId)
     {
-        if (isProcessed) return;
+        if (isProcessed || activeFingerId != -1) return;
 
-        Vector2 worldPos = mainCam.ScreenToWorldPoint(screenPos);
         RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
-
         if (hit.collider != null && hit.collider == tileCollider)
         {
+            activeFingerId = fingerId;
             isHolding = true;
+            holdTimer = 0f;
             AudioManager.Instance.PlayMusic();
         }
     }
+
+    void UpdateHold()
+    {
+        if (!isHolding || isProcessed) return;
+
+        if (!isTouched)
+        {
+            isTouched = true;
+            highlightImage.gameObject.SetActive(true);
+            GameManager.Instance.AddScore(50);
+        }
+
+        holdTimer += Time.deltaTime;
+        holdTimer = Mathf.Min(holdTimer, holdDuration);
+
+        highlightImage.size = new Vector2(
+            highlightImage.size.x,
+            highlightSize * (holdTimer / holdDuration)
+        );
+
+        if (holdTimer >= holdDuration)
+        {
+            HandleTap();
+        }
+    }
+
  
     void HandleTap()
     {
@@ -111,6 +150,7 @@ public class TileController : MonoBehaviour
         headImage.sprite = GameManager.Instance.headDeadSprite;
         headImage.flipX = Random.value > 0.5f;
         GameManager.Instance.ShakeCamera();
+        GameManager.Instance.AddScore(50);
     }
 
     public void Reset()
@@ -118,5 +158,10 @@ public class TileController : MonoBehaviour
         isProcessed = false;
         tileImage.sprite = defaultSprite;
         tileImage.color = Color.white;
+    }
+    void EndHold()
+    {
+        isHolding = false;
+        activeFingerId = -1;
     }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -39,13 +40,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] SpriteAlphaFade fade;
     [SerializeField] public Sprite headDeadSprite;
     [SerializeField] public Sprite headSprite;
+    [SerializeField] private Text scoreText;
 
-
+    private int score = 0;
     private List<GameObject> activeTiles = new List<GameObject>();
 
     void Awake()
     {
-        // 🔥 ultra-light singleton
+        Input.multiTouchEnabled = true;
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -147,6 +149,12 @@ public class GameManager : MonoBehaviour
     public void ShakeCamera()
     {
         cameraShake.Shake();
+    }
+
+    public void AddScore(int amount)
+    {
+        score += amount;
+        scoreText.text = "<b>" +score+ "</b>";
     }
 
     public bool IsGameActive() => gameActive;
