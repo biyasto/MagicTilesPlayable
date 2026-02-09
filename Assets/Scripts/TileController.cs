@@ -30,6 +30,7 @@ public class TileController : MonoBehaviour
     {
         isProcessed = false;
         isHolding = false;
+        isTapTile = false;
         tileImage.sprite = defaultSprite;
         headImage.sprite = GameManager.Instance.headSprite;
         highlightImage.size = new Vector2(highlightImage.size.x, 0);
@@ -53,6 +54,7 @@ public class TileController : MonoBehaviour
 
     void Update()
     {
+        if( GameManager.Instance.IsGameOver) return;
         // MULTI-TOUCH (Luna / Mobile)
         if (Input.touchCount > 0)
         {

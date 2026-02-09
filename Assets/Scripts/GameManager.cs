@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
 
     private int score = 0;
     private List<GameObject> activeTiles = new List<GameObject>();
+    public bool IsGameOver = false;
 
     void Awake()
     {
@@ -55,7 +56,6 @@ public class GameManager : MonoBehaviour
         }
         Instance = this;
     }
-
     void Start()
     {
         gameActive = false;
@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
 
             if (controller.transform.position.y<bottomY && controller.isTouched==false)
             {
-             //   EndGame();
+                EndGame();
             }
 
             if (controller.IsOffScreen())
@@ -135,6 +135,7 @@ public class GameManager : MonoBehaviour
     {
         AudioManager.Instance.StopMusic();
         gameActive = false;
+        IsGameOver = true;
         fade.enabled = true;
         fade.onFadeComplete = ShowEndGameUI;
         AudioManager.Instance.PlaySFX(AudioManager.Instance.overSound);

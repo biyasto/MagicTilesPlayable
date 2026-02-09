@@ -1,8 +1,8 @@
 {
     "version": "7.0.0",
     "projectId": "38be68efea13b634abee7b6324862144",
-    "applicationID": 36831,
-    "creativeName": "",
+    "applicationID": 36845,
+    "creativeName": "SquidGame",
     "pgServer": "EU",
     "window": {
         "‐⁏": true
@@ -136,7 +136,7 @@
         "packages": {
             "default": {
                 "applicationName": "",
-                "orientation": "unspecified",
+                "orientation": "portrait",
                 "languages": [
                     "en"
                 ]
