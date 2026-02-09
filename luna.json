@@ -22114,7 +22114,7 @@
                     },
                     {
                         "name": "text#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "font#get",
@@ -24493,6 +24493,10 @@
                     {
                         "name": "ShakeCamera",
                         "excluded": false
+                    },
+                    {
+                        "name": "AddScore",
+                        "excluded": false
                     }
                 ]
             },
@@ -24560,6 +24564,14 @@
                     },
                     {
                         "name": "TryStartHold",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateHold",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EndHold",
                         "excluded": false
                     }
                 ]

@@ -2,13 +2,13 @@ Authorized using stored user info.
 stderr: 'rm' is not recognized as an internal or external command,
 operable program or batch file.
 
-Exporting assets from Unity.......
+Exporting assets from Unity........
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
 Using E:/Projects/Github/MagicTilesPlayable/Assets/Fonts/Cocogoose-Pro-Darkmode-trial.ttf file to generate an atlas for Cocogoose-Pro-Darkmode-trial[24894] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Using C:/Windows/Fonts/arial.ttf file to generate an atlas for LegacyRuntime[498] font
 [ error ] $Failed to locate TTF file for the font named LegacyRuntime – falling back to Arial substitute.
+Using C:/Windows/Fonts/arial.ttf file to generate an atlas for LegacyRuntime[498] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
 Combined 97 glyphs into bitmap texture at E:/Projects/Github/MagicTilesPlayable/LunaTemp/stage1/tmp/fonts/Cocogoose-Pro-Darkmode-trial-24894/output_0.png (64kb)
 Combined 97 glyphs into bitmap texture at E:/Projects/Github/MagicTilesPlayable/LunaTemp/stage1/tmp/fonts/LegacyRuntime-498/output_0.png (59kb)
@@ -18,7 +18,7 @@ Resources:
 Authorized using stored user info.
 MSBuild version 18.0.5+e22287bf1 for .NET Framework
 
-Build started 2/9/2026 7:30:36 AM.
+Build started 2/9/2026 7:43:15 AM.
 
 
 
@@ -93,14 +93,7 @@ CoreCompile:
   Compilation request Scripts, PathToTool=C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\csc.exe
 
   CommandLine = ' /noconfig'
-  BuildResponseFile = '/nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_62 /highentropyva+ /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Biyasto\Dow
-nloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\LunaPlayableArea.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\CameraShake.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\MovePingPong.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpriteAlphaFade.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartTileController.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\ZoomInOut.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"'
-
-  Attempting to create process 'C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\VBCSCompiler.exe' "-pipename:Ve+bP5ni2Q6NbAzBPiJ4NUUUtl+gsWSsBPhitfrUmsc"
-
-  Setting DOTNET_ROOT to 'C:\Program Files\dotnet'
-
-  Successfully created process with process id 27808
+  BuildResponseFile = '/nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_62 /highentropyva+ /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\LunaPlayableArea.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\CameraShake.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\MovePingPong.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpriteAlphaFade.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartTileController.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\ZoomInOut.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"'
 
   Attempt to open named pipe 'Ve+bP5ni2Q6NbAzBPiJ4NUUUtl+gsWSsBPhitfrUmsc'
 
@@ -111,29 +104,34 @@ nloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\ne
   Begin writing request for Scripts
 
   End writing request for Scripts
+
   Begin reading response for Scripts
 
   End reading response for Scripts
 
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(12,44): warning CS0649: Field 'TileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(8,41): warning CS0649: Field 'EndGameUI.endgameBg' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartTileController.cs(8,48): warning CS0649: Field 'StartTileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\ZoomInOut.cs(12,44): warning CS0649: Field 'ZoomInOut.rectTransform' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(7,43): warning CS0649: Field 'StartGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(8,50): warning CS0649: Field 'StartGameUI.startTileController' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(38,32): warning CS0649: Field 'GameManager.endGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(37,34): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(36,34): warning CS0649: Field 'GameManager.cameraShake' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(37,34): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(7,43): warning CS0649: Field 'EndGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(7,43): warning CS0649: Field 'StartGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(9,42): warning CS0649: Field 'AudioManager.sfxSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(43,35): warning CS0649: Field 'GameManager.scoreText' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(39,32): warning CS0649: Field 'GameManager.tilesParent' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(38,32): warning CS0649: Field 'GameManager.endGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(8,50): warning CS0649: Field 'StartGameUI.startTileController' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(6,40): warning CS0649: Field 'EndGameUI.zoom' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(13,45): warning CS0649: Field 'TileController.highlightImage' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(8,41): warning CS0649: Field 'EndGameUI.endgameBg' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpriteAlphaFade.cs(8,45): warning CS0649: Field 'SpriteAlphaFade.sprite' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\ZoomInOut.cs(12,44): warning CS0649: Field 'ZoomInOut.rectTransform' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartTileController.cs(8,48): warning CS0649: Field 'StartTileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(12,44): warning CS0649: Field 'TileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(40,38): warning CS0649: Field 'GameManager.fade' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(43,35): warning CS0649: Field 'GameManager.scoreText' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(9,42): warning CS0649: Field 'AudioManager.sfxSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0
+\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpriteAlphaFade.cs(8,45): warning CS0649: Field 'SpriteAlphaFade.sprite' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(6,40): warning CS0649: Field 'EndGameUI.zoom' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(39,32): warning CS0649: Field 'GameManager.tilesParent' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(13,45): warning CS0649: Field 'TileController.highlightImage' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(7,43): warning CS0649: Field 'EndGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(14,18): warning CS0414: The field 'TileController.isTapTile' is assigned but its value is never used [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
   CompilerServer: server - server processed compilation - Scripts
@@ -143,31 +141,31 @@ _CopyFilesMarkedCopyLocal:
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
 
-  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
-  Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
-
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
-
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
@@ -192,10 +190,10 @@ CopyFilesToOutputDirectory:
   Copying file from "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
 
 BridgeNetCompilerTask:
+
   Bridge started
 
       To enable detailed logging, configure "logging" in bridge.json.
-
       https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
 
   Bridge done
@@ -208,30 +206,30 @@ Build succeeded.
 
 "C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
 (CoreCompile target) -> 
-
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(36,34): warning CS0649: Field 'GameManager.cameraShake' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(37,34): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(7,43): warning CS0649: Field 'EndGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(7,43): warning CS0649: Field 'StartGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(9,42): warning CS0649: Field 'AudioManager.sfxSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(43,35): warning CS0649: Field 'GameManager.scoreText' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(39,32): warning CS0649: Field 'GameManager.tilesParent' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(38,32): warning CS0649: Field 'GameManager.endGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(8,50): warning CS0649: Field 'StartGameUI.startTileController' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(6,40): warning CS0649: Field 'EndGameUI.zoom' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(13,45): warning CS0649: Field 'TileController.highlightImage' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(8,41): warning CS0649: Field 'EndGameUI.endgameBg' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpriteAlphaFade.cs(8,45): warning CS0649: Field 'SpriteAlphaFade.sprite' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\ZoomInOut.cs(12,44): warning CS0649: Field 'ZoomInOut.rectTransform' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartTileController.cs(8,48): warning CS0649: Field 'StartTileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(12,44): warning CS0649: Field 'TileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(40,38): warning CS0649: Field 'GameManager.fade' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(8,41): warning CS0649: Field 'EndGameUI.endgameBg' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartTileController.cs(8,48): warning CS0649: Field 'StartTileController.tileCollider' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\ZoomInOut.cs(12,44): warning CS0649: Field 'ZoomInOut.rectTransform' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(7,43): warning CS0649: Field 'StartGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\StartGameUI.cs(8,50): warning CS0649: Field 'StartGameUI.startTileController' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(38,32): warning CS0649: Field 'GameManager.endGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(37,34): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(36,34): warning CS0649: Field 'GameManager.cameraShake' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(40,38): warning CS0649: Field 'GameManager.fade' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pip
+eline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(43,35): warning CS0649: Field 'GameManager.scoreText' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\AudioManager.cs(9,42): warning CS0649: Field 'AudioManager.sfxSource' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpriteAlphaFade.cs(8,45): warning CS0649: Field 'SpriteAlphaFade.sprite' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(6,40): warning CS0649: Field 'EndGameUI.zoom' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\GameManager.cs(39,32): warning CS0649: Field 'GameManager.tilesParent' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(13,45): warning CS0649: Field 'TileController.highlightImage' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\EndGameUI.cs(7,43): warning CS0649: Field 'EndGameUI.pingPong' is never assigned to, and will always have its default value null [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\Projects\Github\MagicTilesPlayable\LunaTemp\stage3\processed-scripts\Assets\Scripts\TileController.cs(14,18): warning CS0414: The field 'TileController.isTapTile' is assigned but its value is never used [C:\Users\Biyasto\Downloads\7.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
     18 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:06.38
+Time Elapsed 00:00:06.79
 
 Source code compiled successfully!
 ﻿
@@ -240,5 +238,5 @@ Diagnostics gathered successfully
 [ Stage3 ] Code compiled and bundled successfully.
 [ Stage4 ] Target platform: playground
 [ Stage4 ] Package bundled successfully
-navigateto:https://assets-lunalabs-io.s3-accelerate.amazonaws.com/uploads%2Fdirect%2Fa333a55127a46e626118782eb6601fc0%2FSquidGame_build.zip
+navigateto:https://assets-lunalabs-io.s3-accelerate.amazonaws.com/uploads%2Fdirect%2F5896f692205aa9ec008c5c15ba8a48a8%2FSquidGame_build.zip
 [ Stage4 ] Package uploaded successfully
